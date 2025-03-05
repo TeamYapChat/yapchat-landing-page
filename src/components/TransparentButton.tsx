@@ -1,8 +1,8 @@
 const TransparentButton = ({ name }: { name: string }) => {
   return (
-    <button className="group bg-none rounded-lg m-2 cursor-pointer transition">
+    <button className="group m-2 cursor-pointer rounded-lg bg-none text-2xl transition">
       {name}
-      <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
+      <span className="block h-0.5 max-w-0 bg-white transition-all duration-500 group-hover:max-w-full"></span>
     </button>
   );
 };
