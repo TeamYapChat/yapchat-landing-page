@@ -16,9 +16,9 @@ function App() {
       <div className="absolute inset-0 bg-black/25 backdrop-blur-sm flex items-center justify-center">
         <div className="relative h-full w-full ">
           {/* NavBar */}
-          <div className="relative h-1/10 w-full top-0 shadow-md">
-            <div className="absolute top-1/2 left-10 -translate-y-1/2">
-              <p>YapChat Logo Goes Here</p>
+          <div className="relative h-1/10 w-full top-0 shadow-md bg-white/30">
+            <div className="absolute top-1/2 left-10 -translate-y-1/2 font-bold text-2xl">
+              <p>YapChat</p>
             </div>
             <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
               <TransparentButton name="Support" />
