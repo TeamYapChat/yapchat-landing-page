@@ -1,14 +1,9 @@
-import bgImg from "./assets/bg_login.png";
 import TransparentButton from "./components/TransparentButton";
 import "./App.css";
 
 function App() {
   return (
     <div>
-      <img
-        src={bgImg}
-        className="absolute inset-0 -z-20 h-full w-full object-cover"
-      />
       {/* Overlay with blur */}
       <div className="absolute inset-0 flex items-center justify-center backdrop-blur-sm">
         <div className="relative h-full w-full">
