@@ -32,6 +32,12 @@ body {
   min-height: 100vh;
 }
 
+body {
+  background: linear-gradient(160deg, #4fc8f8, #ff9d82);
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  overflow-y: hidden;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
