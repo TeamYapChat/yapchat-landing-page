@@ -1,22 +1,32 @@
 import TransparentButton from "./components/TransparentButton";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./App.css";
+import { useEffect } from "react";
 
 function App() {
+
+  useEffect(() => {
+    AOS.init({
+      duration : 2500
+    });
+  }, []);
+
   return (
     <div className="relative">
       {/* Overlay with blur */}
       <div className="absolute inset-0 flex items-center justify-center backdrop-blur-sm">
         <div className="relative h-full w-full">
           {/* NavBar */}
-          <div className="relative top-0 h-1/12 w-full rounded-2xl bg-white/20 shadow-md">
-            <div className="absolute top-1/2 left-10 -translate-y-1/2 text-4xl font-bold">
+          <div className="flex flex-row items-center justify-around w-full rounded-2xl bg-white/20 shadow-md">
+            <div className="text-4xl font-bold">
               <p>YapChat</p>
             </div>
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <div>
               <TransparentButton name="Support" />
               <TransparentButton name="Discover" />
             </div>
-            <div className="absolute top-1/2 right-10 -translate-y-1/2">
+            <div>
               <TransparentButton name="Login" />
             </div>
           </div>
@@ -36,8 +46,8 @@ function App() {
             </h1>
           </div>
           <p className="mb-8 text-lg opacity-90">
-            Experience the serenity of the ocean with a touch of sunset warmth.
-            Discover a place where the waves meet the sky.
+            A place where all yappers can find friends to talk to and people to meet.
+            Chat with friends, family, and anyone as you enjoy the warmth of the virtual sun.
           </p>
           <button className="transform rounded-2xl bg-white px-6 py-3 text-lg font-semibold text-blue-600 shadow-lg transition-transform hover:scale-105 hover:bg-blue-100">
             Explore Now
@@ -46,7 +56,7 @@ function App() {
       </main>
 
       {/* Features Section */}
-      <section className="relative rounded-xl bg-white/50 px-8 py-20 backdrop-blur-xl">
+      <section data-aos="fade-left" className="relative rounded-xl bg-white/50 px-8 py-20 backdrop-blur-xl">
         <div className="mx-auto max-w-6xl">
           <h2 className="mb-16 text-center text-4xl font-bold text-blue-600">
             Why Choose YapChat?
