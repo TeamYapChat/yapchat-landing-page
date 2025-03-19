@@ -1,7 +1,7 @@
 import TransparentButton from "./components/TransparentButton";
 import FeatureSection from "./components/FeatureSection";
-import AOS from "aos";
 import "aos/dist/aos.css";
+import AOS from "aos";
 import "./App.css";
 import { useEffect } from "react";
 
@@ -59,20 +59,20 @@ function App() {
       {/* Feature Section */}
       <FeatureSection
         sideJustify="left"
-        title="Title"
-        body="Body"
+        title="Flexible File Sharing Between Friends"
+        body="Easily share files between everyone in a chat room. Almost all file types are allowed, so share away!"
         src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
       />
       <FeatureSection
         sideJustify="right"
-        title="Title 2"
-        body="Body 2"
+        title="Statuses to Tell When Your Friends Are Online"
+        body="Ever wonder if your friends are online to talk? Statuses show when people are talking, idle, on do not disturb, and offline."
         src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
       />
       <FeatureSection
         sideJustify="left"
-        title="Title 3"
-        body="Body 3"
+        title="Join and Leave Chats Whenever"
+        body="There's no need to create tons of group chats for adding one or two people. Now, you can invite friends to existing chats, and can leave them whenever you like."
         src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
       />
     </div>
