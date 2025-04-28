@@ -1,0 +1,165 @@
+/* Fade in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+.delay-100 {
+  animation-delay: 0.1s;
+}
+
+.delay-200 {
+  animation-delay: 0.2s;
+}
+
+/* Float animation */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Particles */
+.particle-1, .particle-2, .particle-3 {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+
+.particle-1 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(135deg, #4F46E5 0%, #7C3AED 100%);
+  top: 10%;
+  left: 10%;
+  animation: float 15s ease-in-out infinite;
+}
+
+.particle-2 {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%);
+  bottom: 10%;
+  right: 15%;
+  animation: float 20s ease-in-out infinite reverse;
+}
+
+.particle-3 {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(135deg, #6366F1 0%, #A855F7 100%);
+  top: 50%;
+  right: 5%;
+  animation: float 18s ease-in-out infinite;
+}
+
+/* Chat messages */
+.message-left, .message-right {
+  max-width: 80%;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+  border-radius: 16px;
+  position: relative;
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.message-left {
+  background-color: #f0f0f0;
+  color: #333;
+  align-self: flex-start;
+  border-bottom-left-radius: 4px;
+  margin-right: auto;
+}
+
+.message-right {
+  background-color: #4F46E5;
+  color: white;
+  align-self: flex-end;
+  border-bottom-right-radius: 4px;
+  margin-left: auto;
+}
+
+.reaction {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  padding: 2px 6px;
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+.message-typing {
+  margin-top: auto;
+  padding: 10px 0;
+}
+
+.typing-indicator {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: #f0f0f0;
+  border-radius: 16px;
+}
+
+.typing-indicator span {
+  height: 8px;
+  width: 8px;
+  margin: 0 1px;
+  background-color: #999;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.4;
+}
+
+.typing-indicator span:nth-child(1) {
+  animation: typing 1s infinite;
+}
+
+.typing-indicator span:nth-child(2) {
+  animation: typing 1s infinite 0.2s;
+}
+
+.typing-indicator span:nth-child(3) {
+  animation: typing 1s infinite 0.4s;
+}
+
+@keyframes typing {
+  0% {
+    opacity: 0.4;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-4px);
+  }
+  100% {
+    opacity: 0.4;
+    transform: translateY(0);
+  }
+}
+
+/* Mockup animation */
+.mockup-container.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
