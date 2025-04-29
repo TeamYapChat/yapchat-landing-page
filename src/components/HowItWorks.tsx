@@ -25,25 +25,25 @@ const HowItWorks: React.FC = () => {
     {
       number: 1,
       title: "Sign Up",
-      description: "Create an account in seconds with just your email. No credit card required.",
+      description: "Create an account in seconds with just your email. No personal info required.",
       icon: <UserPlus size={20} />
     },
     {
       number: 2,
       title: "Create a Room",
-      description: "Start a new chat room for your team, project, or friend group.",
+      description: "Start a new chat room for your team, project, or friends.",
       icon: <MessageSquarePlus size={20} />
     },
     {
       number: 3,
-      title: "Share the Link",
-      description: "Invite others with a simple link. They can join instantly.",
+      title: "Invite Other Users",
+      description: "Invite others with a simple invitation, no need for complex codes.",
       icon: <Share2 size={20} />
     },
     {
       number: 4,
       title: "Start Chatting",
-      description: "Begin real-time conversations with text, reactions, and more.",
+      description: "Begin real-time conversations with texts, images, files, and more.",
       icon: <MessageSquareText size={20} />
     }
   ];

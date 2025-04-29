@@ -31,19 +31,19 @@ const Testimonials: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const testimonials = [
     {
-      quote: "This app is snappy and perfect for our dev standups. We've completely replaced our old messaging system with YapChat.",
-      author: "Alex Rodriguez",
-      role: "CTO at DevFlow"
+      quote: "Me and my friends have been wanting to find a simple platform for chatting and calling while gaming. YapChat fit this perfectly!",
+      author: "Zachary Ohlenforst",
+      role: "Everyday User"
     },
     {
-      quote: "I replaced Slack with YapChat for our side project. Love the reactions and how lightweight it feels!",
-      author: "Jessica Chen",
-      role: "Product Designer"
+      quote: "It can be quite difficult to challenge Odin's power without proper communication. YapChat, while the product of mortals, serves this purpose well.",
+      author: "Loki Laufeyson",
+      role: "God of Mischief"
     },
     {
-      quote: "YapChat has become essential for our remote team. The real-time nature makes it feel like we're all in the same room.",
-      author: "Michael Johnson",
-      role: "Team Lead at RemoteFirst"
+      quote: "Verily, this contrivance hath proven most vital to mine endeavors against the British crown. Furthermore, the hues and design thereof are most agreeable to mine eyes, bringing me no small measure of delight.",
+      author: "George Washington",
+      role: "Commander of the Continental Army"
     }
   ];
 
