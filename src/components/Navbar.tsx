@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, MessageSquare } from 'lucide-react';
+import YapChatLogo from '../assets/YapChat_logo_no_bg.png';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,8 +23,8 @@ const Navbar: React.FC = () => {
     <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white/90 backdrop-blur-md shadow-sm py-3' : 'bg-transparent py-5'}`}>
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center">
-          <div className="flex items-center">
-            <MessageSquare className="h-6 w-6 text-indigo-600 mr-2" />
+          <div className="flex items-center gap-x-2">
+            <img src={YapChatLogo} alt="YapChat Logo" className="w-10 h-10 scale-125" />
             <span className="text-xl font-bold text-gray-900">YapChat</span>
           </div>
 

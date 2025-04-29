@@ -27,14 +27,14 @@ const Features: React.FC = () => {
       description: 'Messages appear instantly as they are sent. No refreshing, no delays—just seamless conversations.',
     },
     {
-      icon: <Lock className="h-6 w-6 text-indigo-600" />,
-      title: 'End-to-End Encryption',
-      description: 'Your conversations stay private with our cutting-edge encryption that protects your data.',
+      icon: <Smile className="h-6 w-6 text-indigo-600" />,
+      title: 'Minimal, Clean Interface',
+      description: 'Enjoy a fast, lightweight, and intuitive interface for chatting with your friends.',
     },
     {
-      icon: <Smile className="h-6 w-6 text-indigo-600" />,
-      title: 'Custom Reactions & Emojis',
-      description: 'Express yourself with custom reactions and a rich library of emojis to make chats fun.',
+      icon: <Lock className="h-6 w-6 text-indigo-600" />,
+      title: 'Secure Authentication',
+      description: 'Authentication is secured by Clerk and protects your data, even in the event of a breach.',
     },
     {
       icon: <Moon className="h-6 w-6 text-indigo-600" />,

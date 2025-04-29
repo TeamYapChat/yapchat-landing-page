@@ -42,7 +42,7 @@ const UseCases: React.FC = () => {
     },
     {
       icon: <Eye className="h-8 w-8" />,
-      title: "Anonymous Chat Rooms",
+      title: "Anonymous Users",
       description: "Host feedback sessions, Q&As, or community discussions where participants can speak freely with optional anonymity features."
     }
   ];
