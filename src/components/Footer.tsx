@@ -1,5 +1,6 @@
 import React from 'react';
 import { Github, FileText, MessageSquare } from 'lucide-react';
+import YapChatLogo from '../assets/YapChat_logo_no_bg.png';
 
 const Footer: React.FC = () => {
   return (
@@ -7,14 +8,14 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <div className="flex items-center mb-4">
-              <MessageSquare className="h-6 w-6 text-indigo-400 mr-2" />
-              <span className="text-xl font-bold text-white">YapChat</span>
+            <div className="flex items-center justify-center gap-x-3 mb-4">
+              <img src={YapChatLogo} alt="YapChat Logo" className="w-10 h-10 scale-150" />
+              <span className="text-3xl font-bold text-white">YapChat</span>
             </div>
-            <p className="text-gray-400 mb-4">
+            <p className="text-center text-gray-400 mb-4">
               Real-time chat for teams, communities, and friends. Fast, secure, and fun.
             </p>
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 items-center justify-center">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
                 <Github className="h-5 w-5" />
               </a>
