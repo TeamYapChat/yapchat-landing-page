@@ -33,6 +33,7 @@ const Navbar: React.FC = () => {
             <a href="#features" className="text-gray-700 hover:text-indigo-600 transition-colors">Features</a>
             <a href="#use-cases" className="text-gray-700 hover:text-indigo-600 transition-colors">Use Cases</a>
             <a href="#how-it-works" className="text-gray-700 hover:text-indigo-600 transition-colors">How It Works</a>
+            <a href="#testimonials" className="text-gray-700 hover:text-indigo-600 transition-colors">Testimonials</a>
             <button className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors">
               Try YapChat
             </button>
