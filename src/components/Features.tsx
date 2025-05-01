@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageSquareText, Lock, Smile, Moon } from 'lucide-react';
+import { MessageSquareText, Lock, Smile, Clock } from 'lucide-react';
 
 type FeatureCardProps = {
   icon: React.ReactNode;
@@ -37,9 +37,9 @@ const Features: React.FC = () => {
       description: 'Authentication is secured by Clerk and protects your data, even in the event of a breach.',
     },
     {
-      icon: <Moon className="h-6 w-6 text-indigo-600" />,
-      title: 'Light/Dark Themes',
-      description: 'Customize your experience with beautiful light and dark themes that are easy on the eyes.',
+      icon: <Clock className="h-6 w-6 text-indigo-600" />,
+      title: 'Accessibility and Availability',
+      description: 'Accessibility across any devices with Internet access, and constant 99.99% server uptime.',
     },
   ];
 
