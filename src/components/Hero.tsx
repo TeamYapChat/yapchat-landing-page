@@ -1,5 +1,6 @@
 import React from 'react';
 import { Play } from 'lucide-react';
+import ChatScreenshot from '../assets/ChatScreenshot.png';
 
 const Hero: React.FC = () => {
   return (
@@ -34,34 +35,8 @@ const Hero: React.FC = () => {
             </div>
           </div>
           <div className="md:w-1/2 animate-float">
-            <div className="bg-white rounded-xl shadow-2xl overflow-hidden border border-gray-200">
-              <div className="bg-indigo-600 h-8 flex items-center px-4">
-                <div className="flex space-x-2">
-                  <div className="w-3 h-3 rounded-full bg-red-500"></div>
-                  <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
-                  <div className="w-3 h-3 rounded-full bg-green-500"></div>
-                </div>
-              </div>
-              {/* Chat UI Preview */}
-              <div className="p-4 bg-gray-50 h-72 md:h-96 flex flex-col">
-                <div className="message-left">Hello there! Welcome to YapChat!</div>
-                <div className="message-right">Thanks! This looks great!</div>
-                <div className="message-left">
-                  YapChat makes team communication super easy
-                  <div className="flex space-x-1 mt-1">
-                    <span className="reaction">👍 2</span>
-                    <span className="reaction">❤️ 1</span>
-                  </div>
-                </div>
-                <div className="message-typing">
-                  <div className="typing-indicator">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <img className="p-4 h-72 md:h-96 flex flex-col rounded-xl opacity-90"
+              src={ChatScreenshot} />
           </div>
         </div>
       </div>
