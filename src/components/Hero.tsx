@@ -28,10 +28,6 @@ const Hero: React.FC = () => {
               }}>
                 Try YapChat
               </button>
-              <button className="flex items-center justify-center gap-2 bg-white border border-gray-300 text-gray-700 font-medium py-3 px-6 rounded-lg hover:bg-gray-100 transition-colors">
-                <Play size={18} className="text-indigo-600" />
-                <span>Watch Demo</span>
-              </button>
             </div>
           </div>
           <div className="md:w-1/2 animate-float">
