@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
             </div>
           </div>
           <div className="md:w-1/2 animate-float">
-            <img className="p-4 h-72 md:h-96 flex flex-col rounded-xl opacity-90"
+            <img className="p-4 h-auto flex flex-col rounded-xl opacity-90 object-contain"
               src={ChatScreenshot} />
           </div>
         </div>
