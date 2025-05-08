@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, MessageSquare } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import YapChatLogo from '../assets/YapChat_logo_no_bg.png';
 
 const Navbar: React.FC = () => {
