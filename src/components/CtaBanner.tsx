@@ -11,7 +11,7 @@ const CtaBanner: React.FC = () => {
           Join thousands of teams and friends who are already using YapChat to communicate better.
         </p>
         <button className="bg-white text-indigo-600 hover:bg-indigo-50 font-bold py-3 px-8 rounded-lg transition-colors shadow-lg hover:shadow-xl" onClick={() => {
-          window.location.href="https://app.yapchat.xyz"
+          window.location.href="https://app.yapchat.fallenlight.xyz"
         }}>
           Launch Chatroom
         </button>

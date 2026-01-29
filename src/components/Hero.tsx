@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start animate-fade-in delay-200">
               <button className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-8 rounded-lg transition-colors shadow-lg hover:shadow-xl" onClick={() => {
-                window.location.href="https://app.yapchat.xyz"
+                window.location.href="https://app.yapchat.fallenlight.xyz"
               }}>
                 Try YapChat
               </button>
